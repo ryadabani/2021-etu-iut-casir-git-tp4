@@ -4,6 +4,8 @@ Mise en pratique de tout ce que nous avons pu voir sur les Tps précédents, en 
 
 Les sources contiennent un template de site ecommerce, celui ci est évidemment incomplet et nous allons le modifier et nous servir de git pour versionner les modifications.
 
+Le travail est à réaliser en binôme.
+
 ## Livrable
 Prévoyez de créer et remplir un document **ecommerce_prenom-nom.md** avec les questions posées dans l'énnoncé et vos réponses, à m'envoyer une fois le projet terminé.
 
@@ -21,7 +23,7 @@ Nous avons besoin pour celà de "forker" le repository.
 
 - Procéder individuellement au fork.
 
-Quelle est la différence entre un fork et un clone ?
+Q1: Quelle est la différence entre un fork et un clone ?
 
 > Votre réponse
 
@@ -39,7 +41,7 @@ Chaque personne du groupe doit compléter son document **ecommerce_prenom-nom.md
 
 ---
 
-Github propose un clone ou download ( bouton vert ), quelle est la différence fondamentale entre les deux ?
+Q2: Github propose un clone ou download ( bouton vert ), quelle est la différence fondamentale entre les deux ?
 
 > Votre réponse
 
@@ -47,17 +49,17 @@ Github propose un clone ou download ( bouton vert ), quelle est la différence f
 
 Quand vous récupérez un projet, il est toujours intéressant d'analyser l'historique ( en plus du contenu ).
 
-- Quelle est la commande git permettant de visualiser l'historique du projet ?
+- Q3: Quelle est la commande git permettant de visualiser l'historique du projet ?
 
 > Votre réponse
 
 _N'hésitez pas à regarder la documentation de cette commande pour voir les nombreuses options disponibles_
 
-- Chaque commit a un numéro unique, seriez vous retrouver celui du cinquième commit de ce repository ?
+- Q4: Chaque commit a un numéro unique, seriez vous retrouver celui du cinquième commit de ce repository ?
 
 > Votre réponse
 
-- D'ailleurs comment savoir, quel est le contenu de ce cinquième commit, c'est à dire quelles ont été les modifications apportées au projet au 3ième et 4ième commit ?
+- Q5: D'ailleurs comment savoir, quel est le contenu de ce cinquième commit, c'est à dire quelles ont été les modifications apportées au projet au 3ième et 4ième commit ?
 
 > Votre réponse
 
@@ -81,13 +83,13 @@ Le footer contient 4 icones pour pointer sur des réseaux sociaux ( facebook, in
 
 Chaque personne de l'équipe va modifier le lien pointé par une icone, faire un commit et partager ce commit.
 
-- Juste avant de commiter, quelle est la commande pour visualiser le contenu de son prochain commit ?
+- Q6: Juste avant de commiter, quelle est la commande pour visualiser le contenu de son prochain commit ?
 
 > Votre réponse
 
 Avant de passer à la suite, chaque personne doit avoir les liens de tous les autres présents sur son poste en local.
 
-Pourquoi la première personne peut partager ses changements sans problème et les autres sont obligées de faire une opération supplémentaire ?
+Q7: Pourquoi la première personne peut partager ses changements sans problème et les autres sont obligées de faire une opération supplémentaire ?
 
 > Votre réponse
 
@@ -109,7 +111,7 @@ Faites une page simple, mais contenant au minimum :
 
 * Procédez à ces deux commits, mettez des messages explicites pour différencier vos travaux. Si vous mettez "Ajout d'une page", on aura 3 ou 4 messages de commit similaires. Ce qui est néfaste pour l'historique.
 
-* Quel est le concept en git qui nous permet de procéder ainsi ?
+* Q8: Quel est le concept en git qui nous permet de procéder ainsi ?
 
 > Votre réponse  
 
@@ -139,11 +141,11 @@ _Si vous avez des conflits, gardez le prix le plus proche de 500\$._
 
 Avant de passer à la suite, chaque personne doit avoir les commits de toutes les personnes sur son poste en local.
 
-- Quelles sont les étapes pour résoudre des conflits sous git ?
+- Q9: Quelles sont les étapes pour résoudre des conflits sous git ?
 
 > Votre réponse
 
-- Comment vous vous assurez que git n'est plus en état de conflit ?
+- Q10: Comment vous vous assurez que git n'est plus en état de conflit ?
 
 > Votre réponse
 
@@ -155,14 +157,14 @@ Si vous regardez à la racine du répertoire il y a un dossiers `bash-scripts` a
 ./bash-scripts/oups.sh
 ```
 
-* Quel fichier a été modifié par le script ?
+* Q11: Quel fichier a été modifié par le script ?
 
 > Votre réponse et la commande git permettant de le savoir.
 
 Si vous essayez de voir votre site, il ne fonctionne plus ( ou mal pendant un certain temps ), le code introduit une boucle infini faisant planter votre navigateur ( oups ). 
 Ça arrive de faire des erreurs, on va utiliser git pour revenir en arrière :
 
-* Ecrasez les modifications faites sur ce fichier en utilisant git
+* Q12: Ecrasez les modifications faites sur ce fichier en utilisant git
 
 > Préciser la commande permettant d'effacer les modifications
 
@@ -174,7 +176,7 @@ Exécuter le script
 ./bash-scripts/oups-oups.sh
 ```
 
-* Faire un git status, qu'observez vous ?
+* Q13: Faire un git status, qu'observez vous ?
 
 > Votre réponse
 
@@ -182,8 +184,8 @@ Il arrive que nous oublions de commiter un fichier, on peut donc revenir sur un 
 
 Modifier le commit précédent en n'oubliant pas de rajouter le fichier oublié
 
-> **NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
-
+ **Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
+> Votre réponse
 
 Ressources :
 
@@ -202,12 +204,15 @@ Executer le script `oups-oups-oups.sh` :
 ```shell
 ./bash-scripts/oups-oups-oups.sh
 ```
-
+Q15: Erreur script: 
 * Visualiser votre historique, que s'est t-il passé ?
+> Votre réponse
 
 * Comment revenir en arrière et donc ignorer les 5 derniers commits ?
+> Votre réponse
 
 **NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
+> Votre réponse
 
 Ressources :
  
@@ -215,10 +220,10 @@ Ressources :
 
 
 # Partie 2
+Avez vous travaillé sur la partie précédente avec les branches ?
+vous auriez du...
 
-Avant de commencer cette partie, vous devez connaitre le concept de branche.
-
-Ressources :
+(Quelques Ressources :)
 
 * [Exercices Visuels](https://learngitbranching.js.org/)
 	* Main -> Séquence d’introduction : 1, 2 et 3
@@ -227,11 +232,11 @@ Ressources :
 * [Branche et Merge](http://alx.github.io/gitbook/3_usage_basique_des_branches_et_des_merges.html)
 
 	
-Résumé en une phrase l'intérêt des branches :
+Q16: Résumé en une phrase l'intérêt des branches :
 
 > Votre réponse
 
-Sans le savoir vous travaillez déjà avec des branches, quel est le nom de la branche par défaut de git ?
+Q17: Sans le savoir vous travaillez déjà avec des branches, quel est le nom de la branche par défaut de git ?
 
 > Votre réponse
 
@@ -244,7 +249,7 @@ Vous avez deux fonctionnalités à développer, nous voulons que ce soit fait en
 #### 1.1 Equipe produit.
 
 * Personne 1: créer une branche ( comment la nommer correctement ? ) et ajouter un produit sur la page d'acceuil sans mettre le prix. Commiter vos changements et partager cette branche
-* Personne 2 : récupérer la branche et ajouter un prix au produit. Commiter et partager les changements.
+*  ajouter un prix au produit. Commiter et partager les changements.
 
 
 #### 1.2 Equipe formulaire
@@ -252,14 +257,16 @@ Vous avez deux fonctionnalités à développer, nous voulons que ce soit fait en
 Nous voulons remplacer la section "Another section if needed" par un formulaire d'inscription à une newsletter.
 
 * Personne 1: créer une branche ( comment la nommer correctement ? ) et ajouter un formulaire avec un champ email
-* Personne 2 : récupérer la branche et ajouter un bouton valider pour envoyer le formmulaire. Commiter et partager les changements.
+* ajouter un bouton valider pour envoyer le formmulaire. Commiter et partager les changements.
 
 
 #### 1.3 Merge dans master
 
-Maintenant au niveau du groupe, merger toutes les branches dans develop puis master et publier la branche sous github. 
+Maintenant au niveau du groupe, merger toutes les branches dans la branche principale via une Pull Request.
 
 * Vous devez merger dans master la branche de l'autre sous groupe afin de vous entrainer à manipuler les branches.
+  - La personne formulaire validant le travail de la personne produit
+  - La personne produit celui de formulaire
 
 * Vous pouvez aussi supprimer les branches en locale et à distance après.
 
